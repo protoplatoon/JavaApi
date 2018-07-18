@@ -1,0 +1,29 @@
+.DS_Strore
+
+tmp/
+
+*.tmp
+*.bak
+*.swp
+
+build/
+
+*.class
+*.jar
+*.war
+*.ear
+
+!gradle/**/*.jar
+
+# Intellij
+.idea
+/out/
+*.iml
+
+# Eclipse
+.settings/
+.loadpath
+.project
+.classpath
+
+.gradle/

@@ -1,0 +1,7 @@
+language: java
+services: mongodb
+before_script:
+  - mongo glo2003 --eval 'db.createUser({user:"otto",pwd:"otto",roles:["readWrite"]});'
+script:
+  - ./gradlew sonarqube
+  - ./gradlew cucumber

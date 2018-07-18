@@ -1,0 +1,1 @@
+web: ./build/install/glo2003/bin/glo2003
